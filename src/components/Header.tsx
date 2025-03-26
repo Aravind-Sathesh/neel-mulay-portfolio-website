@@ -73,13 +73,14 @@ const Header = () => {
   };
 
   const menuItems = [
-    'HOME',
-    'ABOUT ME',
-    'EDUCATION',
-    'EXPERIENCE',
-    'PROJECTS',
-    'GET IN TOUCH',
-  ];
+		'HOME',
+		'ABOUT ME',
+		'EXPERIENCE',
+		'SKILLS',
+		'PROJECTS',
+		'GET IN TOUCH',
+	];
+
 
   return (
     <motion.header
