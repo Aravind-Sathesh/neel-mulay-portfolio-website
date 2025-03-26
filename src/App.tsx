@@ -33,8 +33,8 @@ const AnimatedRoutes = () => {
 							<Header />
 							<Hero id='home' />
 							<About id='aboutme' />
-							<Experience id='education' />
-							<Skills id='experience' />
+							<Experience id='experience' />
+							<Skills id='skills' />
 							<Projects id='projects' />
 							<Footer id='getintouch' />
 						</motion.div>
