@@ -1,0 +1,236 @@
+{
+	"projects": [
+		{
+			"title": "Robot Battle Arena",
+			"description": "Developed a versatile robot capable of operating in various modes including manual control, autonomous wall-following, and attack mode, highlighting adaptability in robotics programming and system design.",
+			"videos": [
+				"https://drive.google.com/file/d/1LCWmoxaIzmYjpZEIlqC-7sJ8_O-WUIbE/view?usp=drive_link",
+				"https://drive.google.com/file/d/1DPZ_Q03taigSzY8-fzo_YsHOgvzOWDsa/view?usp=drive_link",
+				"https://drive.google.com/file/d/18SSDfaZ3CW5D-6o9RiWCIM9TAkFa-klE/view?usp=drive_link"
+			],
+			"images": [
+				"https://drive.google.com/file/d/1FEJ6balPgwTp1SWxb1dJdUNUj8qZ_dsA/view?usp=drive_link",
+				"https://drive.google.com/file/d/1V70Dl-ESuOLGhDE9Kh_yT6U73ROqu8U2/view?usp=drive_link"
+			],
+			"skills": [
+				"C++ programming",
+				"ESP32C3 integration",
+				"TOF Sensors",
+				"I2C",
+				"TCP/IP",
+				"UDP",
+				"CAD",
+				"Vive Sensor",
+				"Laser Cutting",
+				"3D Printing",
+				"HTML/Javascript",
+				"Control Systems"
+			],
+			"achievements": [
+				"Microcontroller Programming and Integration: Demonstrated proficiency in programming and integrating multiple ESP32-C3 microcontrollers, implementing a master-client architecture using ESP-NOW protocol for efficient inter-processor communication",
+				"Sensor Integration and Control Systems: Developed and implemented autonomous navigation algorithms using Time-of-Flight (ToF) sensors and proportional control, showcasing skills in sensor integration and feedback control systems",
+				"Multi-Modal Robotics Design: Created a versatile robot capable of operating in various modes including manual control, autonomous wall-following, and attack mode, highlighting adaptability in robotics programming and system design",
+				"Web-Based Interface Development: Designed and implemented a web-based control interface hosted on the master microcontroller, demonstrating full-stack development skills combining embedded systems with web technologies",
+				"Mechatronic System Optimization: Iteratively improved the robot's mechanical and electrical design, transitioning from a minimal footprint to a more practical two-platform layout, showcasing skills in mechanical design, electrical integration, and system optimization"
+			],
+			"components": [
+				"Two VL53L0X ToF sensors for distance measurement",
+				"Motor Control with PWM signals and encoder feedback",
+				"Servo Motor used as an attacking arm",
+				"Laser cut shield for defense"
+			]
+		},
+		{
+			"title": "F1/10 Autonomous Racing",
+			"description": "Developing and optimizing an autonomous 1:10 scale Formula 1 race car using ROS2 and state-of-the-art autonomous driving techniques.",
+			"videos": [
+				"https://drive.google.com/file/d/1aWrhkrpQvjf1FP5RHqst5bp8iULuTlHJ/view?usp=drive_link",
+				"https://drive.google.com/file/d/1tqOsUsAd-6a8tweimF-74xzW562yNrXE/view?usp=drive_link"
+			],
+			"images": [],
+			"skills": [
+				"ROS2",
+				"Python",
+				"Autonomous driving algorithms",
+				"SLAM",
+				"Particle Filters",
+				"Sensor fusion",
+				"Perception",
+				"Racing"
+			],
+			"achievements": [
+				"High-Performance Control & Motion Planning: Implemented SLAM for real-time environmental awareness and developed path planning algorithms for smooth trajectory generation, including pure pursuit for precise steering and model predictive control (MPC) for optimized motion",
+				"Simulation & Real-World Testing: Designed and tested autonomous driving algorithms in Gazebo and RViz, ensuring robust performance in both simulation and hardware",
+				"Hardware & System Integration: Programmed the autonomous car using NVIDIA Jetson, integrating LiDAR sensors and stereo cameras for real-time perception",
+				"Race-Ready Reactive & Map-Based Algorithms: Integrated map-based strategies for race-specific optimizations and developed reactive driving algorithms for dynamic obstacle avoidance"
+			]
+		},
+		{
+			"title": "Pick and Place with Robot Arm",
+			"description": "Implemented inverse kinematics algorithms for precise control of a 7-DOF robotic arm, enabling accurate block detection, pick-up, and stacking in both static and dynamic environments.",
+			"videos": [
+				"https://drive.google.com/file/d/1nmZR3bSjRChbrhtih3q6DyVahTPOu2hB/preview"
+			],
+			"images": [
+				"https://drive.google.com/file/d/1tqUi8oyAp6f2W2ISJoOy7QCYCVhxXnzC/view?usp=drive_link",
+				"https://drive.google.com/file/d/1iaSuNpjrGcjmjb0bNlT5WXmPuldRDlRn/view?usp=drive_link",
+				"https://drive.google.com/file/d/1ouWFXiOowJ5mcQCD9FiVxR-hXM3E4J8W/view?usp=drive_link",
+				"https://drive.google.com/file/d/1EUGhLp8bJgZd1uWk0C03en3fh_Gm_8ob/view?usp=drive_link"
+			],
+			"skills": [
+				"Python",
+				"Multithreading",
+				"Forward kinematics",
+				"Inverse kinematics",
+				"Motion planning",
+				"Optimization",
+				"Problem solving in complex environments"
+			],
+			"achievements": [
+				"Advanced Robotic Manipulation: Implemented inverse kinematics (IK) algorithms for precise control of a robotic arm, enabling accurate block detection, pick-up, and stacking in both static and dynamic environments",
+				"Computer Vision Integration: Utilized camera feedback and April tag detection to locate and orient blocks, demonstrating proficiency in integrating vision systems with robotic control",
+				"Dynamic Object Interaction: Developed two approaches for interacting with moving objects - a sweep approach and a prediction-based method - showcasing adaptability in handling real-time, dynamic scenarios",
+				"Multi-threaded Programming: Implemented a multithreading approach for concurrent computation of inverse kinematics solutions, significantly improving system efficiency and responsiveness",
+				"Hardware-Software Integration: Successfully translated simulation results to real hardware, overcoming challenges related to sensor discrepancies, environmental variations, and mechanical limitations through iterative testing and calibration"
+			]
+		},
+		{
+			"title": "Fast Car",
+			"description": "Constructed a robot using a 1/4 inch MDF panel base with DC motors, integrated encoders, and wheels.",
+			"videos": [],
+			"images": [],
+			"skills": [
+				"C++ programming",
+				"ESP32C3 integration",
+				"CAD Design",
+				"Laser Cutting",
+				"3D Printing",
+				"HTML/Javascript",
+				"Control Systems",
+				"Project Management",
+				"Testing and Optimization"
+			],
+			"achievements": [
+				"Developed a circuit using an ESP32C3 microcontroller, H-bridge motor driver, and various connectors",
+				"Created a WiFi-based control system with a custom web interface for remote operation",
+				"Implemented PID control for precise speed management of each motor",
+				"Won first place in the speed competition by completing 3 laps around the obstacle"
+			]
+		},
+		{
+			"title": "Dancing Man",
+			"description": "Designed and implemented a 3-DOF interactive input and output device that mimics a dancer.",
+			"videos": [],
+			"images": [
+				"https://drive.google.com/file/d/1ZnDZFZQquo9nIvsARw-i_qyhLpHPzrHT/view?usp=drive_link",
+				"https://drive.google.com/file/d/1mYwWeE9ZkdLevjEqY9jViTccgieuXsli/view?usp=drive_link"
+			],
+			"skills": [
+				"C+ programming",
+				"ATmega32U4 integration",
+				"CAD Design",
+				"Laser Cutting",
+				"Servo-motor control",
+				"Circuit design"
+			],
+			"achievements": [
+				"Developed an ADC-based potentiometer control system for precise servo movement",
+				"Created a custom CAD design for the dancer's structure",
+				"Fabricated components using laser-cutting techniques",
+				"Implemented a system where the input device controls the output dancer's movements",
+				"Integrated three servo motors to control the dancer's arms and legs independently",
+				"Programmed the microcontroller to interpret potentiometer inputs and translate them to servo outputs",
+				"Achieved smooth and accurate replication of input movements on the output dancer",
+				"Won prize as the best dancer in class"
+			]
+		},
+		{
+			"title": "Sensors Lab",
+			"description": "Designed and implemented various digital logic and sensing systems, showcasing skills in microcontroller programming, circuit design, and signal processing.",
+			"videos": [],
+			"images": [],
+			"achievements": [
+				"Developed a debounced switch interface using an ATmega32U4 microcontroller, implementing both hardware (RC filter) and software debouncing techniques",
+				"Created a phototransistor-based light sensing circuit, optimizing sensitivity for hand gesture detection at 20+ cm distance",
+				"Designed and built an IR frequency detection system capable of distinguishing between 25 Hz and 662 Hz signals",
+				"Implemented advanced signal processing techniques to detect weak IR signals (662 Hz) in the presence of ambient light noise at distances over 1 meter",
+				"Utilized oscilloscopes, function generators, and various electronic components to analyze and troubleshoot circuit behavior"
+			]
+		},
+		{
+			"title": "Trajectory Optimization for 7 DOF Arm",
+			"description": "Implemented and compared two path planning algorithms for a robotic arm: Rapidly-exploring Random Trees (RRT) and Potential Field methods.",
+			"videos": [],
+			"images": [
+				"https://drive.google.com/file/d/1h6RNwoyZOAsybIqtcNkpTcg4Qqz1l4gL/view?usp=drive_link"
+			],
+			"skills": [
+				"Python programming",
+				"Data structures and algorithms",
+				"Kinematics",
+				"Motion planning",
+				"Optimization",
+				"Problem solving in complex environments"
+			],
+			"achievements": [
+				"Developed a bidirectional RRT algorithm that significantly improved convergence time compared to unidirectional RRT",
+				"Implemented a potential field planner with attractive and repulsive forces for goal-seeking and obstacle avoidance",
+				"Created forward kinematics and Jacobian calculations for a 7-joint robotic arm with additional virtual joints",
+				"Designed collision detection algorithms for both planners",
+				"Conducted extensive testing on various obstacle configurations and analyzed performance metrics",
+				"The RRT planner demonstrated superior performance, successfully finding collision-free paths in 80% of trials for simple environments and 50% for more complex scenarios",
+				"Average planning times ranged from 0.9 to 2.9 seconds depending on environment complexity"
+			]
+		},
+		{
+			"title": "SMA Characterization of NiTi wires (Thesis)",
+			"description": "Conducted an in-depth study on the thermomechanical properties of Nickel-Titanium (NiTi) shape memory alloy wires for actuator applications.",
+			"videos": [],
+			"images": [
+				"https://drive.google.com/file/d/1qhlF2L1bu40s5--ypfom-v7cGQyDTA2Q/view?usp=drive_link",
+				"https://drive.google.com/file/d/1U_UzAifoKa-0fwl-KHZX3Q7XNWKEH7VR/view?usp=drive_link",
+				"https://drive.google.com/file/d/1S3i5bP4IRsoDXwA_7I38XAt4JSrfNfve/view?usp=drive_link",
+				"https://drive.google.com/file/d/1xM3p3A2SmYwpKPl-2u20uOsRYrYQodHP/view?usp=drive_link",
+				"https://drive.google.com/file/d/12VEmrfWvaJ-OvUQjQJUcfvyRfUe1qaAs/view?usp=drive_link"
+			],
+			"skills": [
+				"Material Testing",
+				"Tensile tests",
+				"DSC",
+				"SEM",
+				"TEM",
+				"Microstructure analysis",
+				"Experimental design",
+				"Data analysis"
+			],
+			"achievements": [
+				"Performed thermomechanical characterization of thin NiTi wires using various testing methods",
+				"Investigated the impact of microstructure changes on the fundamental properties and functional behavior of NiTi wires",
+				"Conducted tensile tests till fracture and cyclic tests at different temperatures (20°C, 90°C, 120°C, and 150°C)",
+				"Analyzed the relationship between annealing time, microstructure, and mechanical properties such as ultimate tensile stress, plateau stress, ductility, and plateau strain",
+				"Implemented superelastic cycling tests to evaluate the strain recovery and permanent deformation characteristics",
+				"Performed thermal cyclic tests to study the shape memory effect under various constant stress levels",
+				"Achieved a 60% enhancement in ductility and a 25% increase in actuator response speed through optimized heat treatment"
+			],
+			"location": "Institute of Physics, Czech Academy of Sciences, Prague, under the supervision of Dr. Petr Sittner and Dr. Lukas Kadevarek"
+		},
+		{
+			"title": "Composite Analysis & Modeling",
+			"description": "Conducted an analysis of temperature-dependent properties of fiber-reinforced composites.",
+			"videos": [],
+			"images": [
+				"https://drive.google.com/file/d/1dkedGq2EDQot85QyM-bzkwfht7U2b_kb/view?usp=drive_link",
+				"https://drive.google.com/file/d/1hJWZLr1YglfS6xKnfCjI80XRkDL4KhiI/view?usp=drive_link",
+				"https://drive.google.com/file/d/1FlWT-vUXHqf95xOT0zYhBDFAZp_Gv26h/view?usp=drive_link"
+			],
+			"achievements": [
+				"Developed two predictive models (Model I and Model II) to simulate the temperature-dependent ultimate tensile strength (UTS) of fiber-reinforced polymer composites",
+				"Model I utilized the Halpin-Tsai equation to predict UTS based on elastic modulus, accounting for physical and thermal properties",
+				"Model II incorporated a probabilistic approach using the Weibull distribution to address variability in fiber strength due to temperature fluctuations",
+				"Implemented complex mathematical models in MATLAB to perform simulations across temperature ranges",
+				"Conducted experimental validation through standardized tensile testing and matrix digestion tests",
+				"Analyzed how factors like fiber volume fraction, fiber/matrix properties, and temperature affect composite strength"
+			]
+		}
+	]
+}
