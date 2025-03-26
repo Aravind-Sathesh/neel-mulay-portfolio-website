@@ -19,9 +19,9 @@ const Experience: React.FC<ExperienceProps> = ({ id }) => {
 					viewport={{ once: true }}
 					className='mb-8'
 				>
-					<h2 className='text-4xl md:text-5xl lg:text-6xl font-bold'>
+					<h1 className='text-4xl md:text-5xl lg:text-6xl font-bold'>
 						EXPERIENCE
-					</h2>
+					</h1>
 					<div className='w-full h-0.5 bg-zinc-800 mt-4'></div>
 				</motion.div>
 
