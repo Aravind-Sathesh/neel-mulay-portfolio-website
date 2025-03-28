@@ -38,6 +38,7 @@
 			"title": "Graduate Research Assistant",
 			"company": "General Robotics, Automation, Sensing, & Perception Lab",
 			"period": "Nov 2024 - Present",
+			"website": "https://sung.seas.upenn.edu/",
 			"location": "University of Pennsylvania, Philadelphia, USA",
 			"description": "Research on robotics and control"
 		},
@@ -133,7 +134,7 @@
 			"tags": ["ATmega32U4", "Circuit Design"]
 		},
 		{
-			"title": "Trajectory Optimization for 7 DOF Arm",
+			"title": "Trajectory Optimization for 7-DOF Arm",
 			"image": "/project-covers/trajectory-op.png",
 			"description": "Implemented and compared two path planning algorithms for a robotic arm: Rapidly-exploring Random Trees (RRT) and Potential Field methods.",
 			"tags": ["Python", "Motion Planning", "Optimization"]
