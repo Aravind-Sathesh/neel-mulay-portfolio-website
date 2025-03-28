@@ -79,7 +79,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.5, ease: 'easeInOut' }}
 						viewport={{ once: true }}
-						className='md:w-1/2 flex-shrink-0' // ADDED flex-shrink-0
+						className='md:w-1/2'
 					>
 						<div>
 							<img
