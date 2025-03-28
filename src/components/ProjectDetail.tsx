@@ -228,7 +228,7 @@ const ProjectDetail = (): JSX.Element => {
 					<div className='mb-12 md:mb-16'>
 						{/* Video Selection Thumbnails Grid */}
 						<h2 className='text-3xl md:text-4xl font-bold mb-6'>
-							PROJECT VIDEOS
+							VIDEOS
 						</h2>
 						<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
 							{project.videos.map((videoUrl, index) => {
@@ -327,7 +327,7 @@ const ProjectDetail = (): JSX.Element => {
 				{project.images && project.images.length > 0 && (
 					<div className='mb-12 md:mb-16'>
 						<h2 className='text-3xl md:text-4xl font-bold mb-6'>
-							PROJECT IMAGES
+							 IMAGES
 						</h2>
 						<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
 							{project.images.map((imageUrl, index) => {
@@ -414,7 +414,7 @@ const ProjectDetail = (): JSX.Element => {
 					className='mb-10 md:mb-16'
 				>
 					<h2 className='text-3xl md:text-4xl font-bold mb-4 md:mb-6'>
-						PROJECT OVERVIEW
+						OVERVIEW
 					</h2>
 					<p className='text-gray-300 text-lg leading-relaxed'>
 						{project.description}
