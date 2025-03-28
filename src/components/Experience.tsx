@@ -56,25 +56,57 @@ const Experience: React.FC<ExperienceProps> = ({ id }) => {
 									viewport={{ once: true }}
 									transition={{ delay: index * 0.2 }}
 									className='relative mb-16'
+									onClick={() =>
+										exp.website &&
+										window.open(
+											exp.website,
+											'_blank',
+											'noopener,noreferrer'
+										)
+									}
 								>
-									<div className='absolute md:left-0 left-[9px] top-0 w-4 h-4 bg-white rounded-full'></div>
+									<div className='absolute md:left-0 left-[9px] top-0 w-4 h-4 bg-white rounded-full z-10'></div>
 
-									<div className='md:w-full w-full pl-12'>
-										<div className='bg-zinc-900 p-6 rounded-lg border border-zinc-800'>
-											<div className='text-xs text-yellow-200 mb-2'>
-												{exp.period}
+									<motion.div
+										className={`md:w-full w-full pl-12 ${
+											exp.website ? 'cursor-pointer' : ''
+										}`}
+									>
+										<div
+											className={`
+											bg-zinc-900/70 backdrop-blur-sm p-6 rounded-xl border border-zinc-800/50 
+											transition-all duration-300 
+											${
+												exp.website
+													? 'hover:bg-zinc-900/80 hover:border-zinc-700/80 hover:shadow-xl'
+													: 'cursor-default'
+											}
+										`}
+										>
+											<div className='flex justify-between items-start'>
+												<div>
+													<div className='text-xs text-yellow-200/80 mb-2'>
+														{exp.period}
+													</div>
+													<h3 className='text-xl font-bold text-white'>
+														{exp.title}
+													</h3>
+													<p className='text-gray-300'>
+														{exp.company}
+													</p>
+													<p className='text-gray-400 text-sm'>
+														{exp.location}
+													</p>
+												</div>
 											</div>
-											<h3 className='text-xl font-bold'>
-												{exp.title}
-											</h3>
-											<p className='text-gray-300'>
-												{exp.company}
-											</p>
-											<p className='text-gray-400 text-sm'>
-												{exp.location}
-											</p>
+
+											{exp.website && (
+												<div className='text-xs text-blue-400/70 mt-2 text-right'>
+													{exp.website}
+												</div>
+											)}
 										</div>
-									</div>
+									</motion.div>
 								</motion.div>
 							))}
 						</div>
