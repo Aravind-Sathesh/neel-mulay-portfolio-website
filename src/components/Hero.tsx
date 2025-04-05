@@ -8,7 +8,7 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ id }) => {
-	const { personalInfo, education, skills } = portfolioData;
+	const { personalInfo, education, skillsCarousel } = portfolioData;
 	const mainEducation = education[0];
 
 	const scrollToSection = (sectionId: string) => {
@@ -39,7 +39,7 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
 	return (
 		<section
 			id={id}
-			className='min-h-screen flex items-center justify-center bg-black text-white pt-40'
+			className='min-h-screen flex items-center justify-center bg-black text-white pt-[15rem] md:pt-40'
 		>
 			<div className='container mx-auto px-4 relative'>
 				<div className='grid grid-cols-1 md:grid-cols-12 md:mt-0 mt-0 gap-8'>
@@ -300,7 +300,7 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
 						transition={{ delay: 0.3, duration: 0.8 }}
 					>
 						<motion.div
-							className='w-full h-full flex items-center justify-center relative z-20'
+							className='w-full h-full flex flex-col items-center justify-center md:-mt-[5rem] sm:-mt-0 relative z-20'
 							initial={{ x: 50, opacity: 0 }}
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ delay: 0.4, duration: 0.8 }}
@@ -317,6 +317,11 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
 								src='/robotic-arm.png'
 								alt='Robotic Arm'
 								className='w-full z-5 h-auto object-contain'
+							/>
+							<img
+								src='/robots.png'
+								alt='Robots'
+								className='w-full z-5 h-[10rem] -mr-[8rem] -mt-[8rem] object-contain'
 							/>
 						</motion.div>
 
@@ -403,26 +408,22 @@ const Hero: React.FC<HeroProps> = ({ id }) => {
 				>
 					<div className='flex items-center justify-start whitespace-nowrap overflow-hidden'>
 						<div className='flex space-x-8 px-4 animate-scroll'>
-							{Object.values(skills)
-								.flat()
-								.map((skill, index) => (
-									<span
-										key={index}
-										className='text-white text-xl font-bold tracking-wide border-r border-zinc-700 pr-8'
-									>
-										{skill}
-									</span>
-								))}
-							{Object.values(skills)
-								.flat()
-								.map((skill, index) => (
-									<span
-										key={`duplicate-${index}`}
-										className='text-white text-xl font-bold tracking-wide border-r border-zinc-700 pr-8'
-									>
-										{skill}
-									</span>
-								))}
+							{skillsCarousel.map((skill, index) => (
+								<span
+									key={index}
+									className='text-white text-xl font-bold tracking-wide border-r border-zinc-700 pr-8'
+								>
+									{skill}
+								</span>
+							))}
+							{skillsCarousel.map((skill, index) => (
+								<span
+									key={`duplicate-${index}`}
+									className='text-white text-xl font-bold tracking-wide border-r border-zinc-700 pr-8'
+								>
+									{skill}
+								</span>
+							))}
 						</div>
 					</div>
 				</motion.div>

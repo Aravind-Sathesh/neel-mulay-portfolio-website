@@ -128,9 +128,9 @@ const About: React.FC<AboutProps> = ({ id }) => {
 						</div>
 						<div className='w-24 h-1 bg-green-400 mb-4'></div>
 						<p className='text-gray-300 text-sm'>
-							Passionate about creating innovative solutions that
-							combine mechanical engineering principles with
-							modern technologies.
+							Expert at integrating mechatronic components to
+							build robotic systems, with strong skills in design,
+							control, and autonomy.
 						</p>
 					</motion.div>
 
@@ -149,9 +149,10 @@ const About: React.FC<AboutProps> = ({ id }) => {
 						</div>
 						<div className='w-24 h-1 bg-green-400 mb-4'></div>
 						<p className='text-gray-300 text-sm'>
-							Passionate about creating innovative solutions that
-							combine mechanical engineering principles with
-							modern technologies.
+							I lead teams in implementing innovative
+							technologies, focusing on clear communication and
+							problem-solving to drive success and foster
+							continuous learning.
 						</p>
 					</motion.div>
 				</div>
