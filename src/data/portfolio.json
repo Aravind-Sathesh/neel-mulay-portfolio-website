@@ -1,7 +1,7 @@
 {
 	"personalInfo": {
 		"name": "NEEL MULAY",
-		"title": "MS Mechanical Engineering graduate with expertise in robotics, mechatronics, and multidisciplinary problem-solving",
+		"title": "MS Mechanical Engineering graduate student with expertise in robotics, mechatronics, and multidisciplinary problem-solving",
 		"image": "/profile.png"
 	},
 	"contactInfo": {
@@ -57,6 +57,16 @@
 			"description": "Battery systems design and testing"
 		}
 	],
+	"skillsCarousel": [
+		"Python",
+		"ROS2",
+		"Arduino",
+		"CAD",
+		"Rapid Prototyping",
+		"Motors",
+		"Sensors",
+		"PCB"
+	],
 	"skills": {
 		"Software": [
 			"Python",
@@ -107,6 +117,7 @@
 		},
 		{
 			"title": "F1/10 Autonomous Racing",
+			"image": "/project-covers/autonomous-racing.png",
 			"description": "Developing and optimizing an autonomous 1:10 scale Formula 1 race car using ROS2 and state-of-the-art autonomous driving techniques.",
 			"tags": ["ROS2", "Python", "SLAM"]
 		},
@@ -130,6 +141,7 @@
 		},
 		{
 			"title": "Sensors Lab",
+			"image": "/project-covers/sensors.png",
 			"description": "Designed and implemented various digital logic and sensing systems, showcasing skills in microcontroller programming, circuit design, and signal processing.",
 			"tags": ["ATmega32U4", "Circuit Design"]
 		},
@@ -141,6 +153,7 @@
 		},
 		{
 			"title": "Characterization of NiTi wires",
+			"image": "/project-covers/niti.png",
 			"description": "Conducted an in-depth study on the thermomechanical properties of Nickel-Titanium (NiTi) shape memory alloy wires for actuator applications.",
 			"tags": [
 				"Material Testing",
