@@ -297,12 +297,7 @@ const ProjectDetail = (): JSX.Element => {
 						{/* Horizontal Thumbnail List */}
 						{project.videos.length > 1 && ( // Only show list if more than one video
 							<div className='relative'>
-								{/* Add gradient overlays for scroll indication if desired */}
-								{/* <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-black to-transparent pointer-events-none z-10"></div> */}
-								{/* <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-black to-transparent pointer-events-none z-10"></div> */}
-
-								{/* Added px-1 for padding inside scroll container */}
-								<div className='flex space-x-3 sm:space-x-4 overflow-x-auto pb-4 px-1 scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900'>
+								<div className='flex space-x-3 sm:space-x-4 overflow-x-auto pb-4 pt-2 px-1 scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900'>
 									{project.videos.map((video, index) => {
 										const thumbnailUrl =
 											getYoutubeThumbnailUrl(video.link);
