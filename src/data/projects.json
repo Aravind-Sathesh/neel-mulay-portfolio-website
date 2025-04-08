@@ -4,8 +4,18 @@
 			"title": "Robot Battle Arena",
 			"description": "Developed a versatile robot capable of operating in various modes including manual control, autonomous wall-following, and attack mode, highlighting adaptability in robotics programming and system design.",
 			"videos": [
-				"https://drive.google.com/file/d/1DPZ_Q03taigSzY8-fzo_YsHOgvzOWDsa/view?usp=drive_link",
-				"https://drive.google.com/file/d/18SSDfaZ3CW5D-6o9RiWCIM9TAkFa-klE/view?usp=drive_link"
+				{
+					"caption": "Robot Battle Arena - Video 1",
+					"link": "https://www.youtube.com/watch?v=cqSdqWGfSIg&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=8"
+				},
+				{
+					"caption": "Robot Battle Arena - Video 2",
+					"link": "https://www.youtube.com/watch?v=QMDcwIHc4io&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=6"
+				},
+				{
+					"caption": "Robot Battle Arena - Video 3",
+					"link": "https://www.youtube.com/watch?v=dxmpAjxJUnU&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=5"
+				}
 			],
 			"images": [
 				"https://drive.google.com/file/d/1V70Dl-ESuOLGhDE9Kh_yT6U73ROqu8U2/view?usp=drive_link",
@@ -47,8 +57,10 @@
 			"title": "F1/10 Autonomous Racing",
 			"description": "Developing and optimizing an autonomous 1:10 scale Formula 1 race car using ROS2 and state-of-the-art autonomous driving techniques.",
 			"videos": [
-				"https://drive.google.com/file/d/1aWrhkrpQvjf1FP5RHqst5bp8iULuTlHJ/view?usp=drive_link",
-				"https://drive.google.com/file/d/1tqOsUsAd-6a8tweimF-74xzW562yNrXE/view?usp=drive_link"
+				{
+					"caption": "Autonomous Racing Demonstration",
+					"link": "https://www.youtube.com/watch?v=g37jKVEam9s&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=4"
+				}
 			],
 			"images": [],
 			"skills": [
@@ -72,7 +84,10 @@
 			"title": "Pick and Place with Robot Arm",
 			"description": "Implemented inverse kinematics algorithms for precise control of a 7-DOF robotic arm, enabling accurate block detection, pick-up, and stacking in both static and dynamic environments.",
 			"videos": [
-				"https://drive.google.com/file/d/1nmZR3bSjRChbrhtih3q6DyVahTPOu2hB/preview"
+				{
+					"caption": "Pick and Place Demonstration",
+					"link": "https://www.youtube.com/watch?v=bMnCxwn1p1U&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=7"
+				}
 			],
 			"images": [
 				"https://drive.google.com/file/d/1tqUi8oyAp6f2W2ISJoOy7QCYCVhxXnzC/view?usp=drive_link",
@@ -100,7 +115,7 @@
 		{
 			"title": "Fast Car",
 			"description": "Constructed a robot using a 1/4 inch MDF panel base with DC motors, integrated encoders, and wheels.",
-			"videos": ["https://drive.google.com/file/d/1LCWmoxaIzmYjpZEIlqC-7sJ8_O-WUIbE/view?usp=drive_link"],
+			"videos": [],
 			"images": [],
 			"skills": [
 				"C++ programming",
@@ -124,7 +139,10 @@
 			"title": "Dancing Man",
 			"description": "Designed and implemented a 3-DOF interactive input and output device that mimics a dancer.",
 			"videos": [
-				"https://drive.google.com/file/d/1DpGKnDO6BpO1y6fxVZGJXVNCNTt1XauW/view?usp=drive_link"
+				{
+					"caption": "Dancing Man Demonstration",
+					"link": "https://www.youtube.com/watch?v=8zUZpeYHStI&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=9"
+				}
 			],
 			"images": [
 				"https://drive.google.com/file/d/1ZnDZFZQquo9nIvsARw-i_qyhLpHPzrHT/view?usp=drive_link",
@@ -153,9 +171,18 @@
 			"title": "Sensors Lab",
 			"description": "Designed and implemented various digital logic and sensing systems, showcasing skills in microcontroller programming, circuit design, and signal processing.",
 			"videos": [
-				"https://drive.google.com/file/d/1jo2C4scUndmo0sLCQq6YraxY8YjE-CHU/view?usp=drive_link",
-				"https://drive.google.com/file/d/1elq5_cdVb_YNlofbUMEFbjYR4qc0IDTi/view?usp=drive_link",
-				"https://drive.google.com/file/d/1ZR0PJmjodnROqnoHc18BSjTlLsLxplRH/view?usp=drive_link"
+				{
+					"caption": "Sensors Lab - Video 1",
+					"link": "https://www.youtube.com/watch?v=pVleX723YAQ&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=1"
+				},
+				{
+					"caption": "Sensors Lab - Video 2",
+					"link": "https://www.youtube.com/watch?v=Ft_M5-hJkHg&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=2"
+				},
+				{
+					"caption": "Sensors Lab - Video 3",
+					"link": "https://www.youtube.com/watch?v=x6L8ejpyG7k&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=3"
+				}
 			],
 			"images": [],
 			"achievements": [
