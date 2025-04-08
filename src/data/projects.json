@@ -58,8 +58,12 @@
 			"description": "Developing and optimizing an autonomous 1:10 scale Formula 1 race car using ROS2 and state-of-the-art autonomous driving techniques.",
 			"videos": [
 				{
-					"caption": "Autonomous Racing Demonstration",
+					"caption": "Autonomous Racing Demonstration - Video 1",
 					"link": "https://www.youtube.com/watch?v=g37jKVEam9s&list=PL0ZXBAcWCG5GEzN4hqmqorBAvjILIY3Uy&index=4"
+				},
+				{
+					"caption": "Autonomous Racing Demonstration - Video 2",
+					"link": "https://www.youtube.com/watch?v=z-noRTd0E7c"
 				}
 			],
 			"images": [],
@@ -116,7 +120,10 @@
 			"title": "Fast Car",
 			"description": "Constructed a robot using a 1/4 inch MDF panel base with DC motors, integrated encoders, and wheels.",
 			"videos": [],
-			"images": [],
+			"images": [
+				"https://drive.google.com/file/d/1SLEuId31UKYOT38UxKZV8mzCAG-X2Ok1/view?usp=drive_link",
+				"https://drive.google.com/file/d/12gsEJSRapMy2Lg1dl3lE41Zqh_9G5pMx/view?usp=drive_link"
+			],
 			"skills": [
 				"C++ programming",
 				"ESP32C3 integration",
