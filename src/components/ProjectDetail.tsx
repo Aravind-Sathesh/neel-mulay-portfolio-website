@@ -198,7 +198,6 @@ const ProjectDetail = (): JSX.Element => {
 		return (
 			<div className='min-h-screen bg-black text-white flex flex-col items-center justify-center p-4'>
 				<div className='text-2xl mb-4 text-red-500'>
-					{' '}
 					{/* Emphasize error */}
 					Error: {error || 'Project could not be loaded'}
 				</div>
@@ -225,12 +224,12 @@ const ProjectDetail = (): JSX.Element => {
 				{/* Back Button */}
 				<button
 					onClick={handleGoBack}
-					className='inline-flex items-center text-white hover:text-gray-300 mb-6 px-3 py-1 rounded-md transition-colors group' // Adjusted styling
+					className='inline-flex items-center text-white hover:text-gray-300 mb-6 px-3 py-1 mt-4 rounded-md transition-colors group' // Adjusted styling
 				>
 					<ArrowLeft
 						className='mr-2 group-hover:-translate-x-1 transition-transform'
 						size={16}
-					/>{' '}
+					/>
 					Back to Projects
 				</button>
 
@@ -496,7 +495,6 @@ const ProjectDetail = (): JSX.Element => {
 					{project.components && project.components.length > 0 && (
 						<div className='mt-8'>
 							<h3 className='text-xl md:text-2xl font-semibold mb-3'>
-								{' '}
 								{/* Adjusted font weight */}
 								Key Components
 							</h3>
@@ -522,7 +520,6 @@ const ProjectDetail = (): JSX.Element => {
 							KEY ACHIEVEMENTS
 						</h2>
 						<ul className='list-disc list-inside text-gray-300 space-y-3'>
-							{' '}
 							{/* Adjusted spacing */}
 							{project.achievements.map((achievement, index) => (
 								<li
@@ -547,7 +544,6 @@ const ProjectDetail = (): JSX.Element => {
 							SKILLS DEVELOPED
 						</h2>
 						<div className='flex flex-wrap gap-3 md:gap-4'>
-							{' '}
 							{/* Use flex-wrap for better flow */}
 							{project.skills.map((skill, index) => (
 								<div
@@ -555,7 +551,6 @@ const ProjectDetail = (): JSX.Element => {
 									className='bg-zinc-800 px-4 py-2 rounded-full border border-zinc-700 hover:bg-zinc-700 transition-colors' // Changed to pills
 								>
 									<p className='text-white text-sm md:text-base'>
-										{' '}
 										{/* Adjusted text size */}
 										{skill}
 									</p>
